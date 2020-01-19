@@ -45,4 +45,4 @@ def preprocess():
     y = dataset['Loan_Status']
     X = dataset.drop(columns=['Loan_Status'])
 
-    return train_test_split(X, y, test_size = 0.11, random_state = 42)
+    return train_test_split(X, y, test_size = 0.08, random_state = 42)
